@@ -1,3 +1,11 @@
 .kontener{
-    
+      margin-left: 5% ;
+      margin-top: 2% ;
+    border: 1px groove grey ;
+    padding:10px;
+    display: inline-block;
+}
+
+.kontener input,label,textarea,select{
+    margin:5px;
 }

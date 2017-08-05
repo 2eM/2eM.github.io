@@ -6,6 +6,8 @@
     display: inline-block;
 }
 
-.kontener input,label,textarea,select{
+.kontener input,label,textarea,select,p{
     margin:5px;
 }
+
+p

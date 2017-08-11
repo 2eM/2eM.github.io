@@ -1,47 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Formularz</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Formularz</title>
+    </head>
 
-<body>
-    <div class="kontener">
-        <form action="https://formspree.io/obrzut.marcin@gmail.com" method="POST">
-            <label for="Imię">Imię : </label><br>
-                <input type="text" name="Imię" id="Imię"><br>
-            <label for="Nazwisko">Nazwisko : </label><br>
-                <input type="text" name="Nazwisko" id="Nazwisko"><br>
-            <label for="Email">E-mail : </label><br>
-                <input type="email" name="Email" id="Email"><br>
-            <label for="Telefon">Telefon : </label><br>
-                <input type="tel" name="Telefon" id="Telefon"><br>
-            <label for="Miasto">Wybierz miasto : </label><br>
-                <select name="Miasto" id="Miasto">
-                    <option value="Kraków">Kraków</option>
-                    <option value="Warszawa">Warszawa</option>
-                    <option value="Gdańsk">Gdańsk</option>
-                </select><br>
-            <label for="Płeć">Płeć : </label> <br>
-                <label for="Mężczyzna">
-                    <input type="radio" name="Płeć" value="Mężczyzna" id="Mężczyzna" >Mężczyzna
-                </label>
-               <label for="Kobieta">
-                    <input type="radio" name="Płeć" value="Kobieta" id="Kobieta">Kobieta <br>
+    <body>
+        <div class="kontener">
+            <form action="https://formspree.io/obrzut.marcin@gmail.com" method="POST">
+                <label for="Imię">Imię : </label><br>
+                    <input type="text" name="Imię" id="Imię"><br>
+                <label for="Nazwisko">Nazwisko : </label><br>
+                    <input type="text" name="Nazwisko" id="Nazwisko"><br>
+                <label for="Email">E-mail : </label><br>
+                    <input type="email" name="Email" id="Email"><br>
+                <label for="Telefon">Telefon : </label><br>
+                    <input type="tel" name="Telefon" id="Telefon"><br>
+                <label for="Miasto">Wybierz miasto : </label><br>
+                    <select name="Miasto" id="Miasto">
+                        <option value="Kraków">Kraków</option>
+                        <option value="Warszawa">Warszawa</option>
+                        <option value="Gdańsk">Gdańsk</option>
+                    </select><br>
+                <label>Płeć : </label> <br>
+                    <label for="Mężczyzna">
+                        <input type="radio" name="Płeć" value="Mężczyzna" id="Mężczyzna" checked="checked" >Mężczyzna
+                    </label>
+                   <label for="Kobieta">
+                        <input type="radio" name="Płeć" value="Kobieta" id="Kobieta">Kobieta <br>
+                   </label>
+
+
+               <label for="Wiadomość"> Wiadomość : </label><br>
+                    <textarea name="Wiadomość" id="Wiadomość" cols="30" rows="10" maxlength="160"></textarea><br>
+               <label for="Zgoda">
+                    <input type="checkbox" name="Zgoda" value="Tak" id="Zgoda"> Wyrażam zgodę na przetwarzanie moich danych osobowych <br>
                </label>
-           
-           
-           <label for="Wiadomość"> Wiadomość : </label><br>
-                <textarea name="Wiadomość" id="Wiadomość" cols="30" rows="10" maxlength="160"></textarea><br>
-           <label for="Zgoda">
-                <input type="checkbox" name="Zgoda" value="Tak" id="Zgoda"> Wyrażam zgodę na przetwarzanie moich danych osobowych <br>
-           </label>
-           
-            <input type="submit" value="Wyślij">
-        </form>
-    </div>
-</body>
 
-</html>
+                <input type="submit" value="Wyślij">
+            </form>
+        </div>
+    </body>
+
+    </html>

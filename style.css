@@ -10,4 +10,25 @@
     margin:5px;
 }
 
-p
+
+#Kobieta{
+    checked:checked;
+}
+/*
+#Kobieta {
+   checked:unchecked; 
+}
+
+#Mężczyzna:active{
+    checked:checked;
+    #Kobieta{
+       checked:unchecked;  
+    }
+}
+
+#Kobieta:active{
+    checked:checked;
+      #Mężczyzna{
+       checked:unchecked;  
+    }
+}*/

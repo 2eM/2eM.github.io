@@ -9,26 +9,3 @@
 .kontener input,label,textarea,select,p{
     margin:5px;
 }
-
-
-#Kobieta{
-    checked:checked;
-}
-/*
-#Kobieta {
-   checked:unchecked; 
-}
-
-#Mężczyzna:active{
-    checked:checked;
-    #Kobieta{
-       checked:unchecked;  
-    }
-}
-
-#Kobieta:active{
-    checked:checked;
-      #Mężczyzna{
-       checked:unchecked;  
-    }
-}*/
